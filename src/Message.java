@@ -6,6 +6,12 @@
 
 public class Message {
     public static void main(String[] args) {
+        String author;
+        String message;
+        Date createdAt;
+        Date updatedAt;
+
+
         if  (args.length == 0) //Om inga argument anges så printar programmet bara menyn
             System.out.println(" Show message 1 \n" +
                     " Add message 2 \n" +
